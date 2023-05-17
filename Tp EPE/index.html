@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://www.epe.santafe.gov.ar/institucional/sites/default/files/inline-images/logo-epe-empresa.png" alt="">
+    <form action="" id="formulario">
+
+        <section id="section">
+            <div>
+                <label for="">Tipo de usuario</label>
+                <select name="" id="tipo_usuario">
+                    <option value="" selected disabled>Seleccionar</option>
+                    <option value="Residencial">Residencial</option>
+                    <option value="Industrial">Industrial</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Zona del domicilio</label>
+                <select name="" id="zona_domicilio">
+                    <option value="" selected disabled>Seleccionar</option>
+                    <option value="centro">Distrito Centro</option>
+                    <option value="sur">Distrito Sur</option>
+                    <option value="oeste">Distrito Oeste</option>
+                    <option value="norte">Distrito Norte</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Cantidad de kWh del mes</label>
+                <input type="number" name="" id="cantidad_kwh">
+            </div>
+            <br>
+            <button type="submit" id="btnCalcular">Calcular</button>
+            <img class="img1" src="https://www.epe.santafe.gov.ar/institucional/sites/default/files/logo-epe-blanco-nuevo.png" alt="">
+
+        </section>
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

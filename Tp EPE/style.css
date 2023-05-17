@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+    /*font-size: 62.5%;*/
+    background-image: url("https://www.lifeder.com/wp-content/uploads/2021/08/concepto-electricidad-cables.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border: 15px solid rgb(2, 9, 71);
+    padding: 5px;
+    height: 100vh;
+    filter: drop-shadow(1px 1px 3px #FFFFFF);
+    
+}
+img{
+    width: 20vw;
+    height: 15vh;
+    position: absolute;
+    filter: drop-shadow(1px 1px 3px #FFFFFF);
+    
+    
+}
+#formulario {
+    background-color: rgb(208, 255, 0);
+    width: 40%;
+    height: 550px;
+    border-radius: 1%;
+    padding: 1rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 8px;
+    background: rgba(0, 12, 75, 0.711);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    border: 5px solid rgba(23, 30, 62, 0.74);
+    margin-top: 20vh;
+    color: #fff;
+    text-align: center;
+    filter: drop-shadow(1px 1px 3px #FFFFFF);
+
+
+
+}
+.img1{
+    position: relative;
+    margin: 10px auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+}
+button{
+    width: 10.3vw;
+    padding: 5px;
+    filter: drop-shadow(1px 1px 1px #000);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    width: 15.3vw;
+    padding: 5px;
+    filter: drop-shadow(1px 1px 3px #000);
+    text-align: center;
+}
+label{
+    display: block;
+    filter: drop-shadow(1px 1px 3px #000);
+    margin-top: 20px;
+    
+}
+select{
+    width: 15vw;
+    padding: 5px;
+    filter: drop-shadow(1px 1px 3px #000);
+    text-align: center;
+}
+.error {
+    bottom: 150px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 5px;
+    filter: drop-shadow(1px 1px 3px #000);
+    position: absolute;
+    left: 20%;
+}
+.resultado {
+    bottom: 150px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 5px;
+    filter: drop-shadow(1px 1px 3px #000);
+    position: absolute;
+    left: 25%;
+    
+}

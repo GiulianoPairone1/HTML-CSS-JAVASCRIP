@@ -1,0 +1,44 @@
+body{
+   font-family: tahoma,sans-serif;
+   background-color: rgb(231, 248, 208);
+}
+h1{
+   font-size: 24px;
+   color: #242424;
+   font-weight: 900;
+}
+h2{
+   font-size: 20px;
+   color: #606060;
+   font-weight: 800;
+}
+p{
+   font-size: 14px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+ul{
+   font-family: "Lucida Console" ,Courier, monospace;
+   font-size: 15px;
+   margin-left: 100px;
+   padding: 20px; 
+   border: blue ;
+   border: 2px solid #d0d0d0;
+   width: 40%;	
+   list-style: none;
+   line-height: 15px;
+   cursor:auto;
+}
+a{
+   font-weight: bold;
+}
+a{
+   color: orange;
+   text-decoration: underline;
+}
+#verde{
+   color: green;
+}
+#indentificador{
+   color: black;
+}
