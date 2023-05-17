@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUP LC2 - TP Integrador</title>
+    <!--EStilos Css--> 
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pages/index.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>
+            <img src="img/logo.png" alt="logo"  width="30" height="50"> 
+            <span>Clima App</span>
+        </h1>
+        <nav>
+            <ul>
+                <li class="current-page"><a href="#">Clima</a></li>
+                <li><a href="add-city.html">Agregar Ciudad</a></li>
+                <li><a href="help.html">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>   
+    <!--Contenido principal de la pagina-->
+
+
+    <main>
+        <h2>El Clima Ahora</h2> 
+          <section id="form-city-list">
+            <!--Seccion donde se coloca el  formulario,con el select y el boton de consultar-->
+            <form action="">
+                <label for="seleccionable"></label>
+                <select name="Seleccionable" id="Seleccionable">
+                    <option value="Seleccionar ciudad" disabled-selected>Seleccionar ciudad</option>
+
+
+                </select>
+                <button onclick="">consultar</button>
+            </form>
+          </section>
+
+          <section id="section-weather-result" >
+            <!--Info de la ciudad-->  
+          </section>
+    </main> 
+
+
+    <footer>
+        <p>
+            Todos los derechos reservados 
+        </p>
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/pages/index.js"></script>
+</body>
+</html>

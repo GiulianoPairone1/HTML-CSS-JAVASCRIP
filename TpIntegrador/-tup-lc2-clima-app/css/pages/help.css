@@ -1,0 +1,35 @@
+#NE{
+    height: 30px;
+    width: 250px;
+}
+
+#Men{
+    height: 300px;
+    width: 250px;
+}
+
+button{
+    margin-left: 25px;
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+    background-color:#04957d ;
+    border-radius: 10px;
+}
+
+button p{
+    color: white;
+    margin-top: 4px;
+}
+
+#error{
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 8px;  
+    margin-left: 480px;
+    margin-bottom: 6px;
+    background-color: #dc3545;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+}

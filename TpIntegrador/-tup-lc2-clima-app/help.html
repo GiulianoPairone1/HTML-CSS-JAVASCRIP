@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!--Giuliano-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUP LC2 - TP Integrador</title>
+    <!--EStilos Css-->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pages/help.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="img/logo.png" alt="logo"  width="30" height="50">  
+            <span>Clima App</span>
+        </h1>
+        <nav>
+            <ul>
+                <li ><a href="Index.html">Clima</a></li>
+                <li><a href="add-city.html">Agregar Ciudad</a></li>
+                <li class="current-page"><a href="help.html">Ayuda</a></li>   
+            </ul>
+        </nav>
+    </header>   
+    <!--Contenido principal de la pagina-->
+    <main>
+        <h2>Ayuda Clima App v1.0</h2>
+        <p>Esta app te permite consultar el clima de una ciudad en particular utilizando la API de <a href="https://openweathermap.org/ap" target="_blank" >OpenWeatheMap</a></p>
+        <p >Para poder consultar el clima, primero debera <a href="add-city.html">Agregar una ciudad</a> y luego seleccionar la Ciudad en cuestion desde la pagina <a href="Index.html">Clima</a></p>
+        <section>
+            <form action="Contacto" id="formulario">
+                <label for="text">Nombre</label>
+                <br>
+                <input type="text" name="Nombre">
+                <br>
+                <label for="text">Email</label>
+                <br>
+                <input type="email" name="email" id="email"> 
+                <br>
+                <label for="Mensaje">Mensaje</label>
+                <br>
+                <textarea name="Mensaje" cols="30" rows="10"></textarea>
+                <br>
+                <button id="limpiar"><p>Limpiar</p></button>
+                <button id="enviar"><p>Enviar</p></button>
+            </form>
+        </section>
+        <section id="error">
+
+        </section>
+    </main> 
+
+    <footer>
+        <p>
+            Todos los derechos reservados 
+        </p>
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/pages/help.js"></script>
+
+</body>
+</html>
